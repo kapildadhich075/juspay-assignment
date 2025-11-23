@@ -1,4 +1,4 @@
-import { LayoutGrid, Star, Search, Sun, Moon, RotateCcw, Bell, Menu, PanelsTopLeft, History } from 'lucide-react';
+import { Star, Search, Sun, Moon, Bell, Menu, PanelsTopLeft, History } from 'lucide-react';
 
 interface HeaderProps {
   isDarkMode: boolean;
@@ -9,7 +9,7 @@ interface HeaderProps {
   onRightSidebarClick?: () => void;
 }
 
-export default function Header({ isDarkMode, onToggleDarkMode, showNotifications, onToggleNotifications, onMenuClick, onRightSidebarClick }: HeaderProps) {
+export default function Header({ isDarkMode, onToggleDarkMode, showNotifications: _showNotifications, onToggleNotifications, onMenuClick, onRightSidebarClick }: HeaderProps) {
   const bgColor = isDarkMode ? 'bg-gray-900 border-gray-800' : 'bg-white border-gray-200';
   const textColor = isDarkMode ? 'text-gray-400' : 'text-gray-600';
   const inputBgColor = isDarkMode ? 'bg-gray-800' : 'bg-gray-50';
