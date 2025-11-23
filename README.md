@@ -2,6 +2,12 @@
 
 A modern, responsive eCommerce dashboard application built with React, TypeScript, and Tailwind CSS. This project features a comprehensive dashboard with data visualization, order management, and a sleek dark/light mode interface.
 
+## 🌐 Live Demo
+
+**Live Application**: [https://kapil-justpay.netlify.app/](https://kapil-justpay.netlify.app/)
+
+Visit the deployed application to see all features in action!
+
 ## Features
 
 - **Responsive Design**: Fully responsive layout that works seamlessly on desktop, tablet, and mobile devices
